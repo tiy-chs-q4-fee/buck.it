@@ -1,6 +1,9 @@
 $(document).ready( function(){
-	$(".infoSubmit").on("click", function(){
+	$(".infoSubmit").click(function(){
 		event.preventDefault();
-		console.log($(".Excercise").val());
+		var inputName = $("#name").val();
+		$("#name").val(inputName);
+		
+
 	});
 });
