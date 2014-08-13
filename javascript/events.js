@@ -4,6 +4,7 @@ $(document).ready( function(){
 	$("form").on("submit", function(){
 
 		event.preventDefault();
+		$(".input").addClass("hide");
 
 		var inputName = $('#name').val();
 		$("#name").val(inputName);
@@ -19,18 +20,28 @@ $(document).ready( function(){
 		switch(inputInterest){
 
 			case 'exerciseVal':
-				$('.output').html(
-					"<p>" + inputName + "'s buck.it list</p>"
-					+ "<p>" + exerciseList + "</p>"
-					);
+					console.log(exerciseList);
+					break;
 
+			case 'travelVal':
+				console.log(travelList);
+				break;
+
+			case 'daredevilVal':
+				console.log(daredevilList);
+				break;
+
+			case 'sportsVal':
+				console.log(sportsList);
+				break;
+
+			case 'learningVal':
+				console.log(learningList);
+				break;
 		};
-
-		/*$('.output').html(
-			"<p>" + inputName + "'s buck.it list</p>"
-			+ "<p>" + inputInterest + "</p>"
-		);*/
-
+		$('.output').html(
+			"<h2>" + inputName +"'s buck.it list </h2>"
+		);
 	});
 
 });
