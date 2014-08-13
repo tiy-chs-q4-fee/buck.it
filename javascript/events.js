@@ -19,14 +19,17 @@ $(document).ready( function(){
 		switch(inputInterest){
 
 			case 'exerciseVal':
-				console.log(exerciseList);
+				$('.output').html(
+					"<p>" + inputName + "'s buck.it list</p>"
+					+ "<p>" + exerciseList + "</p>"
+					);
 
 		};
 
-		$('.output').html(
+		/*$('.output').html(
 			"<p>" + inputName + "'s buck.it list</p>"
 			+ "<p>" + inputInterest + "</p>"
-			);
+		);*/
 
 	});
 
