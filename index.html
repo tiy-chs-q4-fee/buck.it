@@ -10,16 +10,16 @@
   <div class="input">
     <h2>Input your information to start your buck.it list!</h2>
     <form action="">
-      <h3>Name:</h3><input type="text">
-      <h3>Age:</h3><input type="text">
+      <h3>Name:</h3><input type="text" id="name">
+      <h3>Age:</h3><input type="text" id="age">
       <h3>Select Interests:</h3>
       <p>(Hold the shift key to select multiple.)</p>
-      <select name="Interests" id="interests" multiple>
-        <option value="Exercise">Exercise</option>
-        <option value="Travel">Travel</option>
-        <option value="Sports">Sports</option>
-        <option value="Adventure">Adventure</option>
-        <option value="Learning">Learning</option>
+      <select class="interests" name="Interests" id="interests">
+        <option value="exerciseVal">Exercise</option>
+        <option value="travelVal">Travel</option>
+        <option value="sportsVal">Sports</option>
+        <option value="daredevilVal">Daredevil</option>
+        <option value="learningVal">Learning</option>
       </select>
       <button class="infoSubmit">Submit</button>
     </form>
@@ -36,6 +36,7 @@
 
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="node_modules/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="javascript/data.js"></script>
 <script type="text/javascript" src="javascript/events.js"></script>
 </body>
 </html>
