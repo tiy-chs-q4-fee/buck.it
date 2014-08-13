@@ -2,7 +2,8 @@ var travelList = [
 
   "Visit 5 countries",
   "See all 50 states",
-  "See the 7 wonders of the world"
+  "See the 7 wonders of the world",
+  "Visit each continent"
 
 ];
 
