@@ -17,11 +17,11 @@ body{
 			}
 
 	header{
-	margin-left: 13%;
-	margin-top: 6%;
+	margin-left: 14%;
+	margin-top: 8%;
 	background-color: $backgroundcolortwo;
 	border-radius: 10px;
-	width: 42%;
+	width: 40%;
 	opacity: 0.8;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -31,10 +31,11 @@ body{
 		text-align: center;
 		font-family: $fontfamily;
 		font-family: $fontfamilytwo;
-		font-size: 4.5em;
-		font-weight: 40;
+		font-weight: 400;
 		margin-bottom: 0;
-
+		height:54px;
+		position:relative;
+		top:7px;
 		}
 	}
 
@@ -46,9 +47,9 @@ body{
   	}
 
 	.input{
-		margin-left: 12%;
+		margin-left: 14%;
 		background-color: $backgroundcolorone;
-		width: 44%;
+		width: 40%;
 		border-radius: 10px;
 		opacity: 0.8;
 		margin-top: 1%;
@@ -73,6 +74,8 @@ body{
 
 			#name, #age{
 				border-radius:10px;
+				border:none;
+				height:20px;
 			}
 
 			button{
@@ -82,6 +85,7 @@ body{
 					height: 20%;
 					font-family: courier;
 					font-weight: bolder;
+					border:none;
 			}
 
 			select{
@@ -105,20 +109,20 @@ body{
 
 	.output {
 
-		margin-left: 12%;
+		margin-left: 14%;
 		margin-bottom: 26%;
 		margin-top: 1%;
 		background-color: $backgroundcolortwo;
-		width: 44%;
+		width: 40%;
 		border-radius: 10px;
 		opacity: 0.8;
 
 		font-family: $fontfamilytwo;
-		
-		h3{
+
+		h3 {
 			font-family: $fontfamilytwo;
 		}
-	
+
 
 		p {
 			font-family: $fontfamilytwo;
@@ -127,15 +131,23 @@ body{
 			}
 	}
 }
+
 .hide{
 	display:none;
 }
-.inputLists{
+
+.listItems{
+
 	li{
+		height:50px;
 		width:100%;
-		img{
+		font-size:1.5em;
+
+		img {
+			vertical-align:bottom;
 			float:right;
 		}
+
 	}
 
 }
