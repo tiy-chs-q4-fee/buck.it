@@ -23,35 +23,35 @@ $(document).ready( function(){
 			case 'exerciseVal':
 				console.log(exerciseList);
 				for (var i =0; i< exerciseList.length; i++){
-					$(".listItems").append( "<li><img src='images/check.png' class='check'>" + exerciseList[i] + "<img src = 'images/xmark.png' class='xmark'></li>")
+					$(".listItems").append( "<li>" + exerciseList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
 
 			case 'travelVal':
 				console.log(travelList);
 				for (var i =0; i< travelList.length; i++){
-					$(".listItems").append( "<li>" + travelList[i] + "</li>")
+					$(".listItems").append( "<li>" + travelList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
 
 			case 'daredevilVal':
 				console.log(daredevilList);
 				for (var i =0; i< daredevilList.length; i++){
-					$(".listItems").append( "<li>" + daredevilList[i] + "</li>")
+					$(".listItems").append( "<li>" + daredevilList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
 
 			case 'sportsVal':
 				console.log(sportsList);
 				for (var i =0; i< sportsList.length; i++){
-					$(".listItems").append( "<li>" + sportsList[i] + "</li>")
+					$(".listItems").append( "<li>" + sportsList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
 
 			case 'learningVal':
 				console.log(learningList);
 				for (var i =0; i< learningList.length; i++){
-					$(".listItems").append( "<li>" + learningList[i] + "</li>")
+					$(".listItems").append( "<li>" + learningList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
 		};
@@ -61,10 +61,11 @@ $(document).ready( function(){
 
 	});
 
-	$(".output").on("click", "li", function(event){
-		$(this).css("text-decoration", "line-through");
-
-
+	$(".output").on("click", ".check", function(event){
+		$(this).parent().css("text-decoration", "line-through");
+	});
+	$(".output").on("click", ".xmark", function(event){
+		$(this).parent().addClass("hide");
 	});
 
 
