@@ -79,7 +79,6 @@ $(document).ready( function(){
 
 		event.preventDefault();
 		var addtlInput = $('.addItems input').val();
-		console.log($('.addItems input').val());
 		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 
 	});
