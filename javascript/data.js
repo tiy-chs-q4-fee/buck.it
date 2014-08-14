@@ -27,7 +27,8 @@ var daredevilList = [
 
   "Go skydiving",
   "Go on a safari",
-  "Go swimming with sharks"
+  "Go swimming with sharks",
+  "Climb a mountain"
 
 ];
 

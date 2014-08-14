@@ -6,7 +6,7 @@ $fontfamilytwo:'Architects Daughter', cursive;
 
 
 body{
-	
+
 	background-image: url("../images/vectorimage.jpg");
 	background-image: no-repeat;
 
@@ -25,7 +25,7 @@ body{
 	opacity: 0.8;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	
+
 
 	h1{
 		text-align: center;
@@ -34,11 +34,11 @@ body{
 		font-size: 4.5em;
 		font-weight: 40;
 		margin-bottom: 0;
-		
+
 		}
 	}
 
-	
+
 	.input:hover{
 		-moz-box-shadow: 3px 3px 5px 8px #43a1d8;
   		-webkit-box-shadow: 3px 3px 5px 8px #43a1d8;
@@ -53,8 +53,8 @@ body{
 		opacity: 0.8;
 		margin-top: 1%;
 		height: 372px;
-		
-		
+
+
 
 		h2{
 			padding-top: 0;
@@ -63,9 +63,9 @@ body{
 			margin-left: 12px;
 			}
 		form p{
-			font-family:$fontfamilytwo; 
+			font-family:$fontfamilytwo;
 		}
-		
+
 		form{
 				margin-left: 15px;
 
@@ -104,21 +104,22 @@ body{
 
 
 	.output {
-		
+
 		margin-left: 12%;
 		margin-bottom: 26%;
 		margin-top: 1%;
 		background-color: $backgroundcolortwo;
 		width: 44%;
-		height: 165px;
 		border-radius: 10px;
 		opacity: 0.8;
+
 		font-family: $fontfamilytwo;
 		
 		h3{
 			font-family: $fontfamilytwo;
 		}
-		
+	
+
 		p {
 			font-family: $fontfamilytwo;
 			font-size: 1.5em;
@@ -126,9 +127,15 @@ body{
 			}
 	}
 }
+.hide{
+	display:none;
+}
+.inputLists{
+	li{
+		width:100%;
+		img{
+			float:right;
+		}
+	}
 
-
- 
-
-
- 
+}
