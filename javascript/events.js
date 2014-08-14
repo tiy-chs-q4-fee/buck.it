@@ -76,7 +76,7 @@ $(document).ready( function(){
 
 	$(".output").on("click", ".check", function(event){
 
-		$(this).parent().css("text-decoration", "line-through");
+		$(this).parent().toggleClass("line");
 
 	});
 
@@ -91,6 +91,14 @@ $(document).ready( function(){
 		event.preventDefault();
 		var addtlInput = $('.addItems input').val();
 		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>");
+
+	});
+
+	$(".lucky").on("click", function(event){
+		event.preventDefault();
+		var randNum = Math.floor(Math.random()*10);
+		$(".listItems").append( "<li>" + luckyList[randNum] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>");
+
 
 	});
 

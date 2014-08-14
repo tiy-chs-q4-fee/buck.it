@@ -16,8 +16,8 @@ body {
     padding-bottom: 0; }
     body header h1 {
       text-align: center;
-      font-family: 'Rock Salt', cursive;
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Rock Salt", cursive;
+      font-family: "Architects Daughter", cursive;
       font-weight: 400;
       margin-bottom: 0;
       height: 54px;
@@ -38,14 +38,14 @@ body {
     body .input h2 {
       padding-top: 0;
       margin-top: 0.5px;
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Architects Daughter", cursive;
       margin-left: 12px; }
     body .input form p {
-      font-family: 'Architects Daughter', cursive; }
+      font-family: "Architects Daughter", cursive; }
     body .input form {
       margin-left: 15px; }
       body .input form h3 {
-        font-family: 'Architects Daughter', cursive; }
+        font-family: "Architects Daughter", cursive; }
       body .input form #name, body .input form #age {
         border-radius: 10px;
         border: none;
@@ -78,15 +78,15 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     padding-top: 1%;
-    font-family: 'Architects Daughter', cursive; }
+    font-family: "Architects Daughter", cursive; }
     body .output h3 {
-      font-family: 'Architects Daughter', cursive; }
+      font-family: "Architects Daughter", cursive; }
     body .output h2 {
       text-align: center; }
     body .output .list h2 {
       text-decoration: underline; }
     body .output p {
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Architects Daughter", cursive;
       font-size: 1.5em;
       margin-left: 3%; }
   body .profile {
@@ -123,3 +123,6 @@ body {
   height: 30px;
   border: none;
   background-color: #ff9f39; }
+
+.line {
+  text-decoration: line-through; }
