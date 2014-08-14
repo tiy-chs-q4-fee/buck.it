@@ -4,7 +4,7 @@ $(document).ready( function(){
 	$("form").on("submit", function(){
 
 		event.preventDefault();
-		$(".input").addClass("hide");
+	
 
 		var inputName = $('#name').val();
 		$("#name").val(inputName);
