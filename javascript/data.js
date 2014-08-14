@@ -18,7 +18,6 @@ var sportsList = [
   "Go to the Super Bowl",
   "Watch a Finals Game 7",
   "Take up a new sport",
-  "Catch a foul ball/homerun at an MLB game",
   "Hit a hole-in-one",
   "Coach a team",
 
