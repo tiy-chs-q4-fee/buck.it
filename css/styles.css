@@ -16,8 +16,8 @@ body {
     padding-bottom: 0; }
     body header h1 {
       text-align: center;
-      font-family: "Rock Salt", cursive;
-      font-family: "Architects Daughter", cursive;
+      font-family: 'Rock Salt', cursive;
+      font-family: 'Architects Daughter', cursive;
       font-weight: 400;
       margin-bottom: 0;
       height: 54px;
@@ -34,18 +34,18 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     margin-top: 1%;
-    height: 372px; }
+    padding-bottom: 1%; }
     body .input h2 {
       padding-top: 0;
       margin-top: 0.5px;
-      font-family: "Architects Daughter", cursive;
+      font-family: 'Architects Daughter', cursive;
       margin-left: 12px; }
     body .input form p {
-      font-family: "Architects Daughter", cursive; }
+      font-family: 'Architects Daughter', cursive; }
     body .input form {
       margin-left: 15px; }
       body .input form h3 {
-        font-family: "Architects Daughter", cursive; }
+        font-family: 'Architects Daughter', cursive; }
       body .input form #name, body .input form #age {
         border-radius: 10px;
         border: none;
@@ -77,13 +77,27 @@ body {
     width: 40%;
     border-radius: 10px;
     opacity: 0.8;
-    font-family: "Architects Daughter", cursive; }
+    padding-top: 1%;
+    font-family: 'Architects Daughter', cursive; }
     body .output h3 {
-      font-family: "Architects Daughter", cursive; }
+      font-family: 'Architects Daughter', cursive; }
+    body .output h2 {
+      text-align: center; }
+    body .output .list h2 {
+      text-decoration: underline; }
     body .output p {
-      font-family: "Architects Daughter", cursive;
+      font-family: 'Architects Daughter', cursive;
       font-size: 1.5em;
       margin-left: 3%; }
+  body .profile {
+    text-align: center;
+    background-color: #479ed3;
+    width: 37%;
+    position: relative;
+    left: 32%;
+    border-radius: 24%; }
+  body .avatar {
+    width: 50px; }
 
 .hide {
   display: none; }
@@ -92,9 +106,9 @@ body {
   height: 50px;
   width: 100%;
   font-size: 1.5em; }
-  .listItems li img {
-    vertical-align: bottom;
-    float: right; }
+.listItems img {
+  vertical-align: bottom;
+  float: right; }
 
 .addItems input {
   color: black;

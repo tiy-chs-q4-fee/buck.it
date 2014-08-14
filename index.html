@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header><h1>buck.it</h1></header>
@@ -13,7 +14,7 @@
     <h2>Input your information to start your buck.it list!</h2>
     <form class="inputForm" action="">
       <h3>Name:</h3><input type="text" id="name" required>
-      <h3>Age:</h3><input type="text" id="age">
+      <h3>Age:</h3><input type="text" id="age" required>
       <h3>Select an interest:</h3>
       <select class="interests" name="Interests" id="interests">
         <option value="exerciseVal">Exercise</option>
@@ -26,16 +27,16 @@
     </form>
 
   </div>
-  <div class="output">
+  <div class="output hide">
     <div class="profile">
-      
+
     </div>
     <div class="list">
       <ol class="listItems">
 
       </ol>
     </div>
-    <form class="addItems hide" action="">
+    <form class="addItems" action="">
       <input type="text" placeholder="Add your own buck.it list item!">
       <button>Add item</button>
     </form>

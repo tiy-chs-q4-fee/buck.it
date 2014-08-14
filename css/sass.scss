@@ -53,9 +53,7 @@ body{
 		border-radius: 10px;
 		opacity: 0.8;
 		margin-top: 1%;
-		height: 372px;
-
-
+		padding-bottom:1%;
 
 		h2{
 			padding-top: 0;
@@ -118,19 +116,40 @@ body{
 		width: 40%;
 		border-radius: 10px;
 		opacity: 0.8;
-
+		padding-top:1%;
 		font-family: $fontfamilytwo;
 
 		h3 {
 			font-family: $fontfamilytwo;
 		}
 
+		h2 {
+			text-align:center;
+
+		}
+
+		.list h2 {
+			text-decoration:underline;
+		}
 
 		p {
 			font-family: $fontfamilytwo;
 			font-size: 1.5em;
 			margin-left: 3%;
 			}
+	}
+
+	.profile {
+		text-align:center;
+		background-color: $backgroundcolorone;
+		width:37%;
+		position:relative;
+		left:32%;
+		border-radius:24%;
+	}
+
+	.avatar {
+		width:50px;
 	}
 }
 
@@ -145,6 +164,8 @@ body{
 		width:100%;
 		font-size:1.5em;
 
+		}
+
 		img {
 			vertical-align:bottom;
 			float:right;
@@ -152,7 +173,6 @@ body{
 
 	}
 
-}
 .addItems{
 	input{
 		color:black;

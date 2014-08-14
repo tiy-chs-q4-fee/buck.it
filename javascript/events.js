@@ -5,7 +5,9 @@ $(document).ready( function(){
 
 		event.preventDefault();
 		$(".input").addClass("hide");
-		$(".addItems").removeClass("hide");
+		$(".output").removeClass("hide");
+
+		$()
 
 
 		var inputName = $('#name').val();
@@ -56,9 +58,18 @@ $(document).ready( function(){
 				}
 				break;
 		};
-		$('.output').prepend(
+
+		$('.list').prepend(
 
 			"<h2>" + inputName +"'s buck.it list </h2>"
+		);
+
+		$('.profile').append(
+
+			"<img src='images/avatar.png' class='avatar'>" +
+			"<h2>" + inputName + "</h2>" +
+			"<h3>Age: " + inputAge + "</h3>"
+
 		);
 
 	});
@@ -79,7 +90,7 @@ $(document).ready( function(){
 
 		event.preventDefault();
 		var addtlInput = $('.addItems input').val();
-		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>");
 
 	});
 
