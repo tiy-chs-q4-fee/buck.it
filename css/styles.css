@@ -55,7 +55,7 @@ body {
         font-weight: bolder; }
       body .input form select {
         background-color: #ff9f39;
-        width: 15%;
+        width: 19%;
         font-family: courier;
         font-weight: bolder; }
   body .output:hover {
@@ -69,11 +69,16 @@ body {
     background-color: whitesmoke;
     width: 44%;
     border-radius: 10px;
-    opacity: 0.8; }
+    opacity: 0.8;
+    font-family: 'Architects Daughter', cursive; }
+    body .output h3 {
+      font-family: 'Architects Daughter', cursive; }
     body .output p {
       font-family: "Architects Daughter", cursive;
       font-size: 1.5em;
       margin-left: 3%; }
+<<<<<<< HEAD
+=======
 
 .hide {
   display: none; }
@@ -82,3 +87,4 @@ body {
   width: 100%; }
   .inputLists li img {
     float: right; }
+>>>>>>> 92b641230068c9cf69d53a10677b249587cbe03e

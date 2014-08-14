@@ -86,7 +86,7 @@ body{
 
 			select{
 					background-color: $backgroundcolorthree;
-					width: 15%;
+					width: 19%;
 					font-family: courier;
 					font-weight: bolder;
 
@@ -113,6 +113,12 @@ body{
 		border-radius: 10px;
 		opacity: 0.8;
 
+		font-family: $fontfamilytwo;
+		
+		h3{
+			font-family: $fontfamilytwo;
+		}
+	
 
 		p {
 			font-family: $fontfamilytwo;
