@@ -75,3 +75,8 @@ body {
       font-family: 'Architects Daughter', cursive;
       font-size: 1.5em;
       margin-left: 3%; }
+
+.hide{
+  display:none;
+}
+
