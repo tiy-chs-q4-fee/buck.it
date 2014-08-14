@@ -1,10 +1,11 @@
 $(document).ready( function(){
 
 
-	$("form").on("submit", function(){
+	$(".inputForm").on("submit", function(){
 
 		event.preventDefault();
 		$(".input").addClass("hide");
+		$(".addItems").removeClass("hide");
 
 
 		var inputName = $('#name').val();
@@ -56,17 +57,31 @@ $(document).ready( function(){
 				break;
 		};
 		$('.output').prepend(
+
 			"<h2>" + inputName +"'s buck.it list </h2>"
 		);
 
 	});
 
 	$(".output").on("click", ".check", function(event){
+
 		$(this).parent().css("text-decoration", "line-through");
-	});
-	$(".output").on("click", ".xmark", function(event){
-		$(this).parent().addClass("hide");
+
 	});
 
+	$(".output").on("click", ".xmark", function(event){
+
+		$(this).parent().addClass("hide");
+
+	});
+
+	$(".addItems").on('submit', function(event){
+
+		event.preventDefault();
+		var addtlInput = $('.addItems input').val();
+		console.log($('.addItems input').val());
+		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+	});
 
 });
