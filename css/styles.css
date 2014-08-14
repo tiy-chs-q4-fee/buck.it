@@ -16,8 +16,8 @@ body {
     padding-bottom: 0; }
     body header h1 {
       text-align: center;
-      font-family: 'Rock Salt', cursive;
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Rock Salt", cursive;
+      font-family: "Architects Daughter", cursive;
       font-weight: 400;
       margin-bottom: 0;
       height: 54px;
@@ -38,29 +38,31 @@ body {
     body .input h2 {
       padding-top: 0;
       margin-top: 0.5px;
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Architects Daughter", cursive;
       margin-left: 12px; }
     body .input form p {
-      font-family: 'Architects Daughter', cursive; }
+      font-family: "Architects Daughter", cursive; }
     body .input form {
       margin-left: 15px; }
       body .input form h3 {
-        font-family: 'Architects Daughter', cursive; }
+        font-family: "Architects Daughter", cursive; }
       body .input form #name, body .input form #age {
         border-radius: 10px;
         border: none;
         height: 20px; }
       body .input form button {
         background-color: #ff9f39;
-        border-radius: 153%;
-        width: 12%;
-        height: 20%;
+        border-radius: 10%;
+        width: 75px;
+        height: 30px;
         font-family: courier;
         font-weight: bolder;
-        border: none; }
+        border: none;
+        font-size: 16px; }
       body .input form select {
         background-color: #ff9f39;
-        width: 19%;
+        height: 30px;
+        font-size: 16px;
         font-family: courier;
         font-weight: bolder; }
   body .output:hover {
@@ -75,11 +77,11 @@ body {
     width: 40%;
     border-radius: 10px;
     opacity: 0.8;
-    font-family: 'Architects Daughter', cursive; }
+    font-family: "Architects Daughter", cursive; }
     body .output h3 {
-      font-family: 'Architects Daughter', cursive; }
+      font-family: "Architects Daughter", cursive; }
     body .output p {
-      font-family: 'Architects Daughter', cursive;
+      font-family: "Architects Daughter", cursive;
       font-size: 1.5em;
       margin-left: 3%; }
 
@@ -93,3 +95,17 @@ body {
   .listItems li img {
     vertical-align: bottom;
     float: right; }
+
+.addItems input {
+  color: black;
+  border: 2px solid #ff9f39;
+  height: 30px;
+  font-size: 16px;
+  font-family: courier;
+  width: 75%; }
+.addItems button {
+  font-family: courier;
+  font-size: 16px;
+  height: 30px;
+  border: none;
+  background-color: #ff9f39; }
