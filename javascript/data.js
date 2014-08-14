@@ -60,3 +60,18 @@ var learningList = [
   "Take a photography class"
 
 ]
+
+var luckyList = [
+
+  "Slap Charles",
+  "Buy a boat",
+  "Go streaking",
+  "Live in a van",
+  "Give everything to charity",
+  "Raise goats",
+  "Wear a costume all month",
+  "Go cow tipping",
+  "Get a tramp stamp",
+  "Pierce your nipples"
+
+]
