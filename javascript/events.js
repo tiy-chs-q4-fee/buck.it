@@ -4,7 +4,8 @@ $(document).ready( function(){
 	$("form").on("submit", function(){
 
 		event.preventDefault();
-	
+		$(".input").addClass("hide");
+
 
 		var inputName = $('#name').val();
 		$("#name").val(inputName);
@@ -22,7 +23,7 @@ $(document).ready( function(){
 			case 'exerciseVal':
 				console.log(exerciseList);
 				for (var i =0; i< exerciseList.length; i++){
-					$(".listItems").append( "<li>" + exerciseList[i] + "</li>")
+					$(".listItems").append( "<li><img src='images/check.png' class='check'>" + exerciseList[i] + "<img src = 'images/xmark.png' class='xmark'></li>")
 				}
 				break;
 
@@ -59,5 +60,12 @@ $(document).ready( function(){
 		);
 
 	});
+
+	$(".output").on("click", "li", function(event){
+		$(this).css("text-decoration", "line-through");
+
+
+	});
+
 
 });
