@@ -55,7 +55,7 @@ body {
         font-weight: bolder; }
       body .input form select {
         background-color: #ff9f39;
-        width: 15%;
+        width: 19%;
         font-family: courier;
         font-weight: bolder; }
   body .output:hover {
@@ -70,12 +70,11 @@ body {
     width: 44%;
     height: 165px;
     border-radius: 10px;
-    opacity: 0.8; }
+    opacity: 0.8;
+    font-family: 'Architects Daughter', cursive; }
+    body .output h3 {
+      font-family: 'Architects Daughter', cursive; }
     body .output p {
       font-family: 'Architects Daughter', cursive;
       font-size: 1.5em;
       margin-left: 3%; }
-
-.hide{
-  display:none;
-}
