@@ -1,0 +1,130 @@
+$backgroundcolorone: #479ed3;
+$backgroundcolortwo: whitesmoke;
+$backgroundcolorthree: #ff9f39;
+$fontfamily:'Rock Salt', cursive;
+$fontfamilytwo:'Architects Daughter', cursive;
+
+
+body{
+	
+	background-image: url("../images/vectorimage.jpg");
+	background-image: no-repeat;
+
+	header:hover{
+		-moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
+  		-webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
+  		box-shadow: 3px 3px 5px 8px #e1e1e1;
+			}
+
+	header{
+	margin-left: 13%;
+	margin-top: 6%;
+	background-color: $backgroundcolortwo;
+	border-radius: 10px;
+	width: 42%;
+	opacity: 0.8;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	
+
+	h1{
+		text-align: center;
+		font-family: $fontfamily;
+		font-family: $fontfamilytwo;
+		font-size: 4.5em;
+		font-weight: 40;
+		margin-bottom: 0;
+		
+		}
+	}
+
+	
+	.input:hover{
+		-moz-box-shadow: 3px 3px 5px 8px #43a1d8;
+  		-webkit-box-shadow: 3px 3px 5px 8px #43a1d8;
+  		box-shadow: 3px 3px 5px 8px #43a1d8;
+  	}
+
+	.input{
+		margin-left: 12%;
+		background-color: $backgroundcolorone;
+		width: 44%;
+		border-radius: 10px;
+		opacity: 0.8;
+		margin-top: 1%;
+		height: 372px;
+		
+		
+
+		h2{
+			padding-top: 0;
+			margin-top: 0.5px;
+			font-family: $fontfamilytwo;
+			margin-left: 12px;
+			}
+		form p{
+			font-family:$fontfamilytwo; 
+		}
+		
+		form{
+				margin-left: 15px;
+
+			h3{font-family: $fontfamilytwo;}
+
+			#name, #age{
+				border-radius:10px;
+			}
+
+			button{
+					background-color: $backgroundcolorthree;
+					border-radius: 153%;
+					width: 12%;
+					height: 20%;
+					font-family: courier;
+					font-weight: bolder;
+			}
+
+			select{
+					background-color: $backgroundcolorthree;
+					width: 15%;
+					font-family: courier;
+					font-weight: bolder;
+
+			}
+
+		}
+
+	}
+
+	.output:hover {
+			-moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
+  			-webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
+  			box-shadow: 3px 3px 5px 8px #e1e1e1;
+			}
+
+
+	.output {
+		
+		margin-left: 12%;
+		margin-bottom: 26%;
+		margin-top: 1%;
+		background-color: $backgroundcolortwo;
+		width: 44%;
+		height: 165px;
+		border-radius: 10px;
+		opacity: 0.8;
+		
+
+		p {
+			font-family: $fontfamilytwo;
+			font-size: 1.5em;
+			margin-left: 3%;
+			}
+	}
+}
+
+
+ 
+
+
+ 
