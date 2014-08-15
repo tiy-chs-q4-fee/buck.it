@@ -91,6 +91,7 @@ $(document).ready( function(){
 		event.preventDefault();
 		var addtlInput = $('.addItems input').val();
 		$(".listItems").append( "<li>" + addtlInput + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>");
+		$(".addItems input").val('');
 
 	});
 
@@ -99,6 +100,12 @@ $(document).ready( function(){
 		var randNum = Math.floor(Math.random()*10);
 		$(".listItems").append( "<li>" + luckyList[randNum] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>");
 
+
+	});
+
+	$(".addItems").on("focus", "input", function(event){
+
+		$(this).attr("placeholder","");
 
 	});
 
