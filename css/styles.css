@@ -1,6 +1,7 @@
 body {
-  background-image: url("../images/vectorimage.jpg");
-  background-image: no-repeat; }
+  background-image: url("../images/surfer.jpg");
+  background-size: 100%;
+  width: 100%; }
   body header:hover {
     -moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
     -webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
@@ -10,7 +11,7 @@ body {
     margin-top: 8%;
     background-color: whitesmoke;
     border-radius: 10px;
-    width: 40%;
+    width: 70%;
     opacity: 0.8;
     margin-bottom: 0;
     padding-bottom: 0; }
@@ -30,7 +31,7 @@ body {
   body .input {
     margin-left: 14%;
     background-color: #479ed3;
-    width: 40%;
+    width: 70%;
     border-radius: 10px;
     opacity: 0.8;
     margin-top: 1%;
@@ -74,7 +75,7 @@ body {
     margin-bottom: 26%;
     margin-top: 1%;
     background-color: whitesmoke;
-    width: 40%;
+    width: 70%;
     border-radius: 10px;
     opacity: 0.8;
     padding-top: 1%;
@@ -101,6 +102,10 @@ body {
 
 .hide {
   display: none; }
+
+.list {
+  height: 200px;
+  width: 100%; }
 
 .listItems li {
   height: 50px;

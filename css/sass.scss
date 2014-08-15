@@ -7,8 +7,9 @@ $fontfamilytwo:'Architects Daughter', century;
 
 body{
 
-	background-image: url("../images/vectorimage.jpg");
-	background-image: no-repeat;
+	background-image: url("../images/surfer.jpg");
+	background-size:100%;
+	width:100%;
 
 	header:hover{
 		-moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
@@ -21,7 +22,7 @@ body{
 	margin-top: 8%;
 	background-color: $backgroundcolortwo;
 	border-radius: 10px;
-	width: 40%;
+	width: 70%;
 	opacity: 0.8;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -49,7 +50,7 @@ body{
 	.input{
 		margin-left: 14%;
 		background-color: $backgroundcolorone;
-		width: 40%;
+		width: 70%;
 		border-radius: 10px;
 		opacity: 0.8;
 		margin-top: 1%;
@@ -113,7 +114,7 @@ body{
 		margin-bottom: 26%;
 		margin-top: 1%;
 		background-color: $backgroundcolortwo;
-		width: 40%;
+		width: 70%;
 		border-radius: 10px;
 		opacity: 0.8;
 		padding-top:1%;
@@ -156,7 +157,10 @@ body{
 .hide{
 	display:none;
 }
-
+.list{
+	height:200px;
+	width:100%;
+}
 .listItems{
 
 	li{
