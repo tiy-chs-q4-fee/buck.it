@@ -111,14 +111,26 @@ body {
   float: right;
   padding: 0 10px; }
 
-.addItems input {
-  color: black;
-  border: 2px solid #ff9f39;
-  height: 30px;
-  font-size: 16px;
-  font-family: courier;
-  width: 75%; }
-.addItems button {
+.addItems {
+  position: relative;
+  left: 2%; }
+  .addItems input {
+    color: black;
+    border: 2px solid #ff9f39;
+    height: 30px;
+    font-size: 16px;
+    font-family: courier;
+    width: 75%; }
+  .addItems button {
+    font-family: courier;
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    background-color: #ff9f39; }
+
+.lucky {
+  position: relative;
+  left: 28%;
   font-family: courier;
   font-size: 16px;
   height: 30px;
