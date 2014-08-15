@@ -8,8 +8,9 @@ $fontfamilytwo:'Architects Daughter', century;
 body{
 
 	background-image: url("../images/surfer.jpg");
-	background-size:100%;
+	background-size:101%;
 	width:100%;
+	text-align:center;
 
 	header:hover{
 		-moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
@@ -18,14 +19,12 @@ body{
 			}
 
 	header{
-	margin-left: 14%;
-	margin-top: 8%;
 	background-color: $backgroundcolortwo;
 	border-radius: 10px;
 	width: 70%;
 	opacity: 0.8;
-	margin-bottom: 0;
 	padding-bottom: 0;
+	margin:0 14%;
 
 
 	h1{
@@ -118,6 +117,7 @@ body{
 		border-radius: 10px;
 		opacity: 0.8;
 		padding-top:1%;
+		padding-bottom:1%;
 		font-family: $fontfamilytwo;
 
 		h3 {
@@ -167,6 +167,7 @@ body{
 		height:50px;
 		width:100%;
 		font-size:1.5em;
+		text-align:left;
 
 		}
 
@@ -201,8 +202,6 @@ body{
 }
 
 .lucky {
-	position:relative;
-	left:28%;
 	font-family:courier;
 	font-size:16px;
 	height:30px;
