@@ -13,14 +13,14 @@ body {
     width: 70%;
     opacity: 0.8;
     padding-bottom: 0;
-    margin: 0 14%; }
+    margin: 0 14%;
+    font-size: 181%; }
     body header h1 {
       text-align: center;
       font-family: 'Rock Salt', century;
       font-family: 'Architects Daughter', century;
-      font-weight: 400;
       margin-bottom: 0;
-      height: 54px;
+      height: 82px;
       position: relative;
       top: 7px; }
   body .input:hover {
