@@ -3,6 +3,11 @@ body {
   background-size: 101%;
   width: 100%;
   text-align: center; }
+  body .logo {
+    margin-left: 76%;
+    height: 76px;
+    width: 145px;
+    margin-top: 2%; }
   body header:hover {
     -moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
     -webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
@@ -79,7 +84,8 @@ body {
     opacity: 0.8;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-family: 'Architects Daughter', century; }
+    font-family: 'Architects Daughter', century;
+    height: 600px; }
     body .output h3 {
       font-family: 'Architects Daughter', century; }
     body .output h2 {
@@ -104,7 +110,7 @@ body {
   display: none; }
 
 .list {
-  height: 200px;
+  height: 384px;
   width: 100%; }
 
 .listItems li {
