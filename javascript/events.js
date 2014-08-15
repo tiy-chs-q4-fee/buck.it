@@ -108,4 +108,10 @@ $(document).ready( function(){
 
 	});
 
+	$(".addItems").on("focusout", "input", function(event){
+
+		$(this).attr("placeholder","Add your own buck.it list item!");
+
+	});
+
 });
