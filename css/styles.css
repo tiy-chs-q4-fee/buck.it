@@ -1,20 +1,19 @@
 body {
   background-image: url("../images/surfer.jpg");
-  background-size: 100%;
-  width: 100%; }
+  background-size: 101%;
+  width: 100%;
+  text-align: center; }
   body header:hover {
     -moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
     -webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
     box-shadow: 3px 3px 5px 8px #e1e1e1; }
   body header {
-    margin-left: 14%;
-    margin-top: 8%;
     background-color: whitesmoke;
     border-radius: 10px;
     width: 70%;
     opacity: 0.8;
-    margin-bottom: 0;
     padding-bottom: 0;
+    margin: 0 14%;
     font-size: 181%; }
     body header h1 {
       text-align: center;
@@ -79,6 +78,7 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     padding-top: 1%;
+    padding-bottom: 1%;
     font-family: 'Architects Daughter', century; }
     body .output h3 {
       font-family: 'Architects Daughter', century; }
@@ -110,7 +110,8 @@ body {
 .listItems li {
   height: 50px;
   width: 100%;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: left; }
 .listItems img {
   vertical-align: bottom;
   float: right;
@@ -134,8 +135,6 @@ body {
     background-color: #ff9f39; }
 
 .lucky {
-  position: relative;
-  left: 28%;
   font-family: courier;
   font-size: 16px;
   height: 30px;
