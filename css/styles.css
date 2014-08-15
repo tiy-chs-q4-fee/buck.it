@@ -14,14 +14,14 @@ body {
     width: 70%;
     opacity: 0.8;
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    font-size: 181%; }
     body header h1 {
       text-align: center;
-      font-family: "Rock Salt", century;
-      font-family: "Architects Daughter", century;
-      font-weight: 400;
+      font-family: 'Rock Salt', century;
+      font-family: 'Architects Daughter', century;
       margin-bottom: 0;
-      height: 54px;
+      height: 82px;
       position: relative;
       top: 7px; }
   body .input:hover {
@@ -39,14 +39,14 @@ body {
     body .input h2 {
       padding-top: 0;
       margin-top: 0.5px;
-      font-family: "Architects Daughter", century;
+      font-family: 'Architects Daughter', century;
       margin-left: 12px; }
     body .input form p {
-      font-family: "Architects Daughter", century; }
+      font-family: 'Architects Daughter', century; }
     body .input form {
       margin-left: 15px; }
       body .input form h3 {
-        font-family: "Architects Daughter", century; }
+        font-family: 'Architects Daughter', century; }
       body .input form #name, body .input form #age {
         border-radius: 10px;
         border: none;
@@ -79,15 +79,15 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     padding-top: 1%;
-    font-family: "Architects Daughter", century; }
+    font-family: 'Architects Daughter', century; }
     body .output h3 {
-      font-family: "Architects Daughter", century; }
+      font-family: 'Architects Daughter', century; }
     body .output h2 {
       text-align: center; }
     body .output .list h2 {
       text-decoration: underline; }
     body .output p {
-      font-family: "Architects Daughter", century;
+      font-family: 'Architects Daughter', century;
       font-size: 1.5em;
       margin-left: 3%; }
   body .profile {
