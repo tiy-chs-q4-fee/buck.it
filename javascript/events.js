@@ -1,14 +1,13 @@
 $(document).ready( function(){
 
+	$("")
+
 
 	$(".inputForm").on("submit", function(){
 
 		event.preventDefault();
 		$(".input").addClass("hide");
 		$(".output").removeClass("hide");
-
-		$()
-
 
 		var inputName = $('#name').val();
 		$("#name").val(inputName);

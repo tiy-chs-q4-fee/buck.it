@@ -175,6 +175,9 @@ body{
 	}
 
 .addItems{
+	position:relative;
+	left:2%;
+	
 	input{
 		color:black;
 		border: 2px solid $backgroundcolorthree;
@@ -183,14 +186,26 @@ body{
 		font-family:courier;
 		width:75%;
 	}
-	button{
+
+	button {
+		font-family:courier;
+		font-size:16px;
+		height:30px;
+		border:none;
+		background-color:$backgroundcolorthree;
+	}
+}
+
+.lucky {
+	position:relative;
+	left:28%;
 	font-family:courier;
 	font-size:16px;
 	height:30px;
 	border:none;
 	background-color:$backgroundcolorthree;
-	}
 }
+
 .line{
 	text-decoration:line-through;
 }

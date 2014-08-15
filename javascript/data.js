@@ -7,7 +7,7 @@ var travelList = [
   "Go back packing",
   "Ride in a hot air balloon",
   "Go to space",
-  "Drive across America (coast to coast)",
+  "Drive across America",
   "See the grand canyon"
 
 ];
