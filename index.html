@@ -22,7 +22,7 @@
     <h2>Input your information to start your buck.it list!</h2>
     <form class="inputForm" action="">
       <h3>Name:</h3><input type="text" id="name" required>
-      <h3>Age:</h3><input type="text" id="age" required>
+      <h3>Age:</h3><input type="number" id="age" required>
       <h3>Select an interest:</h3>
       <select class="interests" name="Interests" id="interests">
         <option value="exerciseVal">Exercise</option>
@@ -30,6 +30,14 @@
         <option value="sportsVal">Sports</option>
         <option value="daredevilVal">Dare Devil</option>
         <option value="learningVal">Learning</option>
+      </select>
+      <h3>Where are you?</h3>
+      <select class="location" name="Location" id="location">
+        <option value="northAmericaVal">North America</option>
+        <option value="southAmericaVal">South America</option>
+        <option value="europeVal">Europe</option>
+        <option value="africaVal">Africa</option>
+        <option value="australiaVal">Australia</option>
       </select>
       <button class="infoSubmit">Submit</button>
     </form>
