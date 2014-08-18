@@ -15,9 +15,9 @@ body {
       saturate: 1.2; }
   body .logo {
     margin-left: 66%;
-    height: 76px;
-    width: 145px;
-    margin-top: 2%; }
+    height: 154px;
+    width: 129px;
+    margin-top: -1%; }
   body header:hover {
     -moz-box-shadow: 3px 3px 5px 8px #e1e1e1;
     -webkit-box-shadow: 3px 3px 5px 8px #e1e1e1;
