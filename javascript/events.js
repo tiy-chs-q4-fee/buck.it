@@ -21,23 +21,911 @@ $('.imagethree').on( "mouseover",  function(){
 
 		event.preventDefault();
 
-		console.log($("#age").val());
-
-		/*$(".input").addClass("hide");
+		$(".input").addClass("hide");
 		$(".output").removeClass("hide");
-
-		var inputName = $('#name').val();
-		$("#name").val(inputName);
 
 		var inputAge = $('#age').val();
 		$("#age").val(inputAge);
 
+		var inputName = $('#name').val();
+		$("#name").val(inputName);
+
 		var inputInterest = $('#interests').val();
 		$("#interests").val(inputInterest);
 
-		console.log(inputInterest);
+		var inputLocation = $('#location').val();
+		$("#location").val(inputLocation);
 
-		switch(inputInterest){
+		console.log(inputAge + " " + inputName + " " + inputInterest + " " + inputLocation);
+
+		switch(inputAge) {
+			case 'teenVal':
+				switch (inputInterest){
+					case 'exerciseVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < teen.exerciseList.northAmerica.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.northAmerica[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < teen.exerciseList.southAmerica.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.southAmerica[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < teen.exerciseList.europe.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.europe[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < teen.exerciseList.asia.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.asia[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < teen.exerciseList.australia.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.australia[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < teen.exerciseList.africa.length; i++) {
+
+									$(".listItems").append( "<li>" + teen.exerciseList.africa[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'travelVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'sportsVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'daredevilVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'learningVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+				};
+
+			break;
+			case 'adultVal':
+				switch (inputInterest){
+					case 'exerciseVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'travelVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'sportsVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'daredevilVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'learningVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+				};
+			break;
+			case 'retireeVal':
+				switch (inputInterest){
+					case 'exerciseVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'travelVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'sportsVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'daredevilVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+					case 'learningVal':
+						switch(inputLocation){
+							case 'northAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'southAmericaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'europeVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'asiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'australiaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+							case 'africaVal':
+
+								for (var i = 0; i < AGE.INTEREST.LOCATION.length; i++) {
+
+									$(".listItems").append( "<li>" + AGE.INTEREST.LOCATION[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+
+								}
+
+								break;
+						};
+					break;
+				};
+			break;
+
+		};
+
+		/*switch(inputInterest){
 
 			case 'exerciseVal':
 				console.log(exerciseList);
@@ -73,7 +961,7 @@ $('.imagethree').on( "mouseover",  function(){
 					$(".listItems").append( "<li>" + learningList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 				}
 				break;
-		};
+		};*/
 
 		$('.list').prepend(
 
@@ -86,7 +974,7 @@ $('.imagethree').on( "mouseover",  function(){
 			"<h2>" + inputName + "</h2>" +
 			"<h3>Age: " + inputAge + "</h3>"
 
-		);*/
+		);
 
 	});
 

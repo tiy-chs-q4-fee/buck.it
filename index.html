@@ -22,7 +22,12 @@
     <h2>Input your information to start your buck.it list!</h2>
     <form class="inputForm" action="">
       <h3>Name:</h3><input type="text" id="name" required>
-      <h3>Age:</h3><input type="number" id="age" min="1" max="100" required>
+      <h3>Age Group:</h3>
+      <select class="age" name="Age" id="age">
+        <option value="teenVal">1 - 19</option>
+        <option value="adultVal">20 - 65</option>
+        <option value="retireeVal">66+</option>
+      </select>
       <h3>Select an interest:</h3>
       <select class="interests" name="Interests" id="interests">
         <option value="exerciseVal">Exercise</option>

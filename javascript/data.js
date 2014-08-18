@@ -1,4 +1,4 @@
-var teen = [
+var teen =
 {
   travelList: {
     northAmerica:["Visit the Great Wall of China", "Vist Mountain gorillas, Rwanda to see some awesome gorillas", "Visit the nightlife of Rio de Janeiro"],
@@ -41,10 +41,9 @@ var teen = [
     australia:["Get a degree", "Learn a language", "Read Ruby on Rails for Kids"]
   },
 
-}
-];
+};
 
-var adult = [{
+var adult = {
   travelList: {
     northAmerica: [
     "See all 50 states",
@@ -209,9 +208,9 @@ var adult = [{
     ],}
 
 
-}];
+};
 
-var retiree = [{
+var retiree = {
   travelList: {
     northAmerica:["Ride an Airstream around the 50 states", "Go to Mt. Rushmore", "Go to the Grand Canyon"],
     southAmerica: ["Take a donkey to Machu Pichu", "Drink caparinhas in Brazil", "Go to the Galapagos Islands"],
@@ -253,7 +252,7 @@ var retiree = [{
     australia: ["View the Uluru", "Go to the Sydney Opera House", "Go to Melbourne's Flower & Garden Show"]
   }
 
-}];
+};
 
 var luckyList = [
 
