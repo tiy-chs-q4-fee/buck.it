@@ -1,5 +1,25 @@
 $(document).ready( function(){
 
+
+$('.imageone').on( "mouseover",  function(){
+	$('body').css( "background-image", "url(images/rockclimbing.jpg)");
+
+});
+
+
+$('.imagetwo').on( "mouseover",  function(){
+	$('body').css( "background-image", "url(images/surfer.jpg)");
+
+});
+
+
+$('.imagethree').on( "mouseover",  function(){
+	$('body').css( "background-image", "url(images/motocross.jpg)");
+
+});
+
+
+
 	$("")
 
 
