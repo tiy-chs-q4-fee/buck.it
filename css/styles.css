@@ -169,10 +169,12 @@ body {
     text-align: center; }
     body .bucketimage {
       display: none; }
+    body .imageone, body .imagetwo, body .imagethree {
+      display: none; }
     body .logo {
       margin-left: -2%;
-      height: 76px;
-      width: 168px;
+      height: 150px;
+      width: 155px;
       margin-top: 2%; }
     body .output {
       margin-left: 14%;
