@@ -167,8 +167,6 @@ body {
     width: 100%;
     height: 100%;
     text-align: center; }
-    body .bucketimage {
-      display: none; }
     body .imageone, body .imagetwo, body .imagethree {
       display: none; }
     body .logo {
