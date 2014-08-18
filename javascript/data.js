@@ -1,3 +1,161 @@
+var 1to20 = [
+{
+  travelList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  exerciseList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  sportsList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  daredevilList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  learningList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  luckyList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+}
+];
+var 20to50 = [{
+  travelList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  exerciseList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  sportsList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  daredevilList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  learningList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  luckyList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+
+}];
+var 50plus = [{
+  travelList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  exerciseList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  sportsList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  daredevilList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  learningList: {
+    northAmerica:
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+  luckyList: {
+    northAmerica: 
+    southAmerica:
+    europe:
+    africa:
+    asia:
+    australia:
+  },
+
+}];
+
+
+
+
 var travelList = [
 
   "Visit 5 countries",
