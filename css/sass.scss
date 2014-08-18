@@ -231,7 +231,12 @@ body{
 		height: 100%;
 		text-align:center;
 	
-
+	.logo{
+		margin-left: -2%;
+		height: 76px;
+		width: 168px;
+		margin-top: 2%
+		}
 
 	.output {
 
@@ -259,3 +264,6 @@ body{
 		.addItems input {
 			width: 71%;
 		}
+
+
+

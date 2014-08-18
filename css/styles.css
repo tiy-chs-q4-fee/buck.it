@@ -157,6 +157,11 @@ body {
     width: 100%;
     height: 100%;
     text-align: center; }
+    body .logo {
+      margin-left: -2%;
+      height: 76px;
+      width: 168px;
+      margin-top: 2%; }
     body .output {
       margin-left: 14%;
       margin-bottom: 26%;
