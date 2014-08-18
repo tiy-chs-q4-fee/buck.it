@@ -982,10 +982,5 @@ $('.imagethree').on( "mouseover",  function(){
 
 	});
 
-	$('.output').on('dblclick', 'li', function() {
-
-		$(this).append("<textarea name=\"textarea\" rows=\"2\" cols=\"50\">Write something here</textarea>");
-
-	});
 
 });
