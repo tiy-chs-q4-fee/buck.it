@@ -981,6 +981,8 @@ $('.imagethree').on( "mouseover",  function(){
 	$(".output").on("click", ".check", function(event){
 
 		$(this).parent().toggleClass("line");
+		var randNum = Math.floor(Math.random()*10);
+		alert(listFinish[randNum]);
 
 	});
 
