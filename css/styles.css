@@ -1,6 +1,3 @@
-.sectiontwohidden {
-  display: none; }
-
 body {
   background-image: url("../images/surfer.jpg");
   background-size: 101%;
@@ -10,6 +7,12 @@ body {
     margin-top: -60px; }
     body .bucketimage .imageone, body .bucketimage .imagetwo, body .bucketimage .imagethree {
       margin-right: 34px; }
+    body .bucketimage .imageone:hover, body .bucketimage .imagetwo:hover, body .bucketimage .imagethree:hover {
+      -webkit-filter: brightness(1.6);
+      contrast: 1.7;
+      grayscale: 0.2;
+      hue-rotate: 90deg;
+      saturate: 1.2; }
   body .logo {
     margin-left: 66%;
     height: 76px;
