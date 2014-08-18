@@ -181,7 +181,7 @@ $('.imagethree').on( "mouseover",  function(){
 
 								for (var i = 0; i < teen.sportsList.europe.length; i++) {
 
-									$(".listItems").append( "<li>" + teen.sportsList.europe.[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+									$(".listItems").append( "<li>" + teen.sportsList.europe[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 
 								}
 
@@ -239,7 +239,7 @@ $('.imagethree').on( "mouseover",  function(){
 
 								for (var i = 0; i < teen.daredevilList.europe.length; i++) {
 
-									$(".listItems").append( "<li>" + teen.daredevilList.europe.[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
+									$(".listItems").append( "<li>" + teen.daredevilList.europe[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'></li>")
 
 								}
 
@@ -981,6 +981,8 @@ $('.imagethree').on( "mouseover",  function(){
 	$(".output").on("click", ".check", function(event){
 
 		$(this).parent().toggleClass("line");
+		var randNum = Math.floor(Math.random()*10);
+		alert(listFinish[randNum]);
 
 	});
 

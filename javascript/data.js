@@ -267,3 +267,18 @@ var luckyList = [
   "Pierce your nipples"
 
 ]
+
+var listFinish = [
+
+  "Congrats!",
+  "Way to go!",
+  "That must have been so awesome!",
+  "Excellent",
+  "You rock",
+  "Another one bites the dust",
+  "You're the master of your bucket list",
+  "Cool beans",
+  "You'll remember that forever",
+  "On to the next one"
+
+]
