@@ -1,7 +1,5 @@
 $(document).ready( function(){
 
-	$("")
-
 
 	$(".inputForm").on("submit", function(){
 
