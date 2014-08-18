@@ -925,43 +925,6 @@ $('.imagethree').on( "mouseover",  function(){
 
 		};
 
-		/*switch(inputInterest){
-
-			case 'exerciseVal':
-				console.log(exerciseList);
-				for (var i =0; i< exerciseList.length; i++){
-					$(".listItems").append( "<li>" + exerciseList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'><img src='images/comment2.png' class='comment'></li>")
-				}
-				break;
-
-			case 'travelVal':
-				console.log(travelList);
-				for (var i =0; i< travelList.length; i++){
-					$(".listItems").append( "<li>" + travelList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'><img src='images/comment2.png' class='comment'></li>")
-				}
-				break;
-
-			case 'daredevilVal':
-				console.log(daredevilList);
-				for (var i =0; i< daredevilList.length; i++){
-					$(".listItems").append( "<li>" + daredevilList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'><img src='images/comment2.png' class='comment'></li>")
-				}
-				break;
-
-			case 'sportsVal':
-				console.log(sportsList);
-				for (var i =0; i< sportsList.length; i++){
-					$(".listItems").append( "<li>" + sportsList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'><img src='images/comment2.png' class='comment'></li>")
-				}
-				break;
-
-			case 'learningVal':
-				console.log(learningList);
-				for (var i =0; i< learningList.length; i++){
-					$(".listItems").append( "<li>" + learningList[i] + "<img src = 'images/xmark.png' class='xmark'><img src='images/checkmark2.png' class='check'><img src='images/comment2.png' class='comment'></li>")
-				}
-				break;
-		};*/
 
 		$('.list').prepend(
 
@@ -971,9 +934,7 @@ $('.imagethree').on( "mouseover",  function(){
 		$('.profile').append(
 
 			"<img src='images/avatar.png' class='avatar'>" +
-			"<h2>" + inputName + "</h2>" +
-			"<h3>Age: " + inputAge + "</h3>"
-
+			"<h2>" + inputName + "</h2>"
 		);
 
 	});
@@ -1020,5 +981,6 @@ $('.imagethree').on( "mouseover",  function(){
 		$(this).attr("placeholder","Add your own buck.it list item!");
 
 	});
+
 
 });
