@@ -63,7 +63,6 @@ var learningList = [
 
 var luckyList = [
 
-  "Slap Charles",
   "Buy a boat",
   "Go streaking",
   "Live in a van",
