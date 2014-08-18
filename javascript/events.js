@@ -20,7 +20,10 @@ $('.imagethree').on( "mouseover",  function(){
 	$(".inputForm").on("submit", function(){
 
 		event.preventDefault();
-		$(".input").addClass("hide");
+
+		console.log($("#age").val());
+
+		/*$(".input").addClass("hide");
 		$(".output").removeClass("hide");
 
 		var inputName = $('#name').val();
@@ -83,7 +86,7 @@ $('.imagethree').on( "mouseover",  function(){
 			"<h2>" + inputName + "</h2>" +
 			"<h3>Age: " + inputAge + "</h3>"
 
-		);
+		);*/
 
 	});
 

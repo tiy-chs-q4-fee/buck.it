@@ -131,7 +131,6 @@ var adult = [{
     ],
   },
   learningList: {
-<<<<<<< HEAD
     northAmerica: [
     "Learn another language",
     "Write a book",
@@ -161,12 +160,12 @@ var adult = [{
     "Learn another language",
     "Write a book",
     "Code a website",
-    ],
+    ]}
 
 }];
+
 var retiree = [{
   travelList: {
-
     northAmerica:["Ride an Airstream around the 50 states", "Go to Mt. Rushmore", "Go to the Grand Canyon"],
     southAmerica: ["Take a donkey to Machu Pichu", "Drink caparinhas in Brazil", "Go to the Galapagos Islands"],
     europe: ["Go to Neuschwanstein in Germany", "Take a Viking River Boat Cruise", "Tour the Palace of Versailles"],
