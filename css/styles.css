@@ -159,6 +159,20 @@ body {
 .line {
   text-decoration: line-through; }
 
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+  font-family: courier;
+  font-size: 16px;
+  height: 36px;
+  border: none;
+  background-color: #ff9f39; }
+
+input, input[type="password"], input[type="search"], isindex {
+  color: black;
+  border: 2px solid #ff9f39;
+  height: 30px;
+  font-size: 16px;
+  font-family: courier; }
+
 @media all and (max-width: 640px) {
   body {
     background-image: url("../images/surfer copy.jpg");
@@ -192,3 +206,17 @@ body {
 
 .addItems input {
   width: 71%; }
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+  font-family: courier;
+  font-size: 16px;
+  height: 30px;
+  border: none;
+  background-color: #ff9f39; }
+
+input, input[type="password"], input[type="search"], isindex {
+  color: black;
+  border: 2px solid #ff9f39;
+  height: 28px;
+  font-size: 16px;
+  font-family: courier; }
