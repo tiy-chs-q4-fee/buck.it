@@ -222,4 +222,29 @@ body{
 }
 
 
-// @media all and (max-width: px){
+@media all and (max-width: 640px){
+	
+	body{
+		background-image: url("../images/surfer copy.jpg");
+		background-size:101%;
+		width:100%;
+		height: 100%;
+		text-align:center;
+	}
+	
+
+
+	.output {
+
+		margin-left: 14%;
+		margin-bottom: 26%;
+		margin-top: 1%;
+		background-color: $backgroundcolortwo;
+		width: 70%;
+		border-radius: 10px;
+		opacity: 0.8;
+		padding-top:1%;
+		padding-bottom:1%;
+		font-family: $fontfamilytwo;
+		height: 600px;
+}
