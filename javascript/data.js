@@ -40,7 +40,7 @@ var teen = [
     asia:["Get a degree","Learn a language", "Read Ruby on Rails for Kids"],
     australia:["Get a degree", "Learn a language", "Read Ruby on Rails for Kids"]
   },
-  
+
 }
 ];
 
@@ -208,11 +208,11 @@ var adult = [{
     "Code a website",
     ],}
 
+
 }];
 
 var retiree = [{
   travelList: {
-
     northAmerica:["Ride an Airstream around the 50 states", "Go to Mt. Rushmore", "Go to the Grand Canyon"],
     southAmerica: ["Take a donkey to Machu Pichu", "Drink caparinhas in Brazil", "Go to the Galapagos Islands"],
     europe: ["Go to Neuschwanstein in Germany", "Take a Viking River Boat Cruise", "Tour the Palace of Versailles"],
@@ -252,7 +252,6 @@ var retiree = [{
     asia: ["Visit the Gardens of Suzhou", "View the Terracota Army", "Attend a Tea Ceremony in Japan"],
     australia: ["View the Uluru", "Go to the Sydney Opera House", "Go to Melbourne's Flower & Garden Show"]
   }
->>>>>>> 9a22eee18376ab1861caef2deca08d87a7ef62f0
 
 }];
 
