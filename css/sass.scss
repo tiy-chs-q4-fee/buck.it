@@ -5,6 +5,8 @@ $fontfamily:'Rock Salt', century;
 $fontfamilytwo:'Architects Daughter', century;
 
 
+.sectiontwohidden {display:none;}
+
 body{
 
 	background-image: url("../images/surfer.jpg");
@@ -12,8 +14,17 @@ body{
 	width:100%;
 	text-align:center;
 
+	.bucketimage{
+		margin-top: -60px;
+
+	.imageone, .imagetwo, .imagethree{
+		margin-right: 34px;
+	}
+
+}
+
 	.logo{
-		margin-left: 76%;
+		margin-left: 66%;
 		height: 76px;
 		width: 145px;
 		margin-top: 2%;
@@ -222,4 +233,52 @@ body{
 }
 
 
-// @media all and (max-width: px){
+@media all and (max-width: 640px){
+	
+	body{
+		background-image: url("../images/surfer copy.jpg");
+		background-size:101%;
+		width:100%;
+		height: 100%;
+		text-align:center;
+
+	.bucketimage {
+		display: none;
+	}
+
+	.logo{
+		margin-left: -2%;
+		height: 76px;
+		width: 168px;
+		margin-top: 2%
+		}
+
+	.output {
+
+		margin-left: 14%;
+		margin-bottom: 26%;
+		margin-top: 1%;
+		background-color: whitesmoke;
+		width: 70%;
+		border-radius: 10px;
+		opacity: 0.8;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		font-family: 'Architects Daughter', century;
+		height: 558px;
+	}
+
+	}
+}
+
+	.list {
+		height: 329px;
+		width: 100%;
+		}
+
+		.addItems input {
+			width: 71%;
+		}
+
+
+
