@@ -1,6 +1,5 @@
 $(document).ready( function(){
 
-
 $('.imageone').on( "mouseover",  function(){
 	$('body').css( "background-image", "url(images/rockclimbing.jpg)");
 
@@ -17,11 +16,6 @@ $('.imagethree').on( "mouseover",  function(){
 	$('body').css( "background-image", "url(images/motocross.jpg)");
 
 });
-
-
-
-	$("")
-
 
 	$(".inputForm").on("submit", function(){
 
