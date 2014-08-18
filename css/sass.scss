@@ -5,7 +5,7 @@ $fontfamily:'Rock Salt', century;
 $fontfamilytwo:'Architects Daughter', century;
 
 
-.sectiontwohidden {display:none;}
+
 
 body{
 
@@ -19,6 +19,10 @@ body{
 
 	.imageone, .imagetwo, .imagethree{
 		margin-right: 34px;
+	}
+
+	.imageone:hover, .imagetwo:hover, .imagethree:hover{
+	-webkit-filter: brightness(1.6); contrast:(1.7); grayscale:(0.2); hue-rotate:(90deg); saturate:(1.2);
 	}
 
 }
